@@ -1,0 +1,135 @@
+body{
+	font-family: sans-serif;
+	
+}
+
+.container{
+	width: 400px;
+	margin: 0 auto;
+	
+	
+}
+.intro{
+	text-align: center;
+	padding-bottom:1em;
+
+}
+
+
+.intro-photo{
+	width: 100%;
+
+}
+
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 3em;
+}
+
+.list-header {
+	width: 100%;
+	margin-top: -2em;
+}
+
+h1 {
+	text-transform: uppercase;
+	display: inline-block;
+
+
+}
+
+.my-header{
+	color:#cdc9c9;
+	padding-right: .1em;
+	
+}
+
+.shopping-header{
+	color:#ff7c6b;
+	
+}
+
+#add-new{
+	width: 100%;
+	text-align: center;
+
+
+}
+
+input{
+	font-size: 1.2em;
+
+	
+}
+
+button{
+	color:#ff7c6b;
+}
+
+
+#list {
+	list-style: none;
+	
+}
+
+
+
+.box {
+	float: left;
+	margin-right: 2em;
+	margin-top:.3em;
+	
+}
+
+.empty-box {
+	background: url(../images/box-empty.png);
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+
+}
+
+
+.checked-box {
+	background: url(../images/box-checked.png);
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	display: none;
+
+}
+
+
+
+
+p {
+	text-align: left;
+	color: #8f8f8f;
+	font-size: 1.1em;
+	font-weight: bold;
+	display: inline;
+	line-height: 2.6em;	
+
+}
+
+.items {
+	border: 1px dashed #cdc9c9;
+	width: 100%;
+	height: 3em;
+	
+	
+}
+
+.delete{
+	float:right;
+	width:40px;
+	height:40px;
+	background: url(../images/delete-box.png);
+	background-repeat: no-repeat;
+	margin-top:.3em;
+	
+	
+}
+
