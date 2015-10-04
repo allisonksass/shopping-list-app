@@ -1,22 +1,22 @@
-body{
-	font-family: sans-serif;
+body {
+	font-family: 'Open Sans', sans-serif;;
 	
 }
 
-.container{
+.container {
 	width: 400px;
 	margin: 0 auto;
 	
 	
 }
-.intro{
+.intro {
 	text-align: center;
 	padding-bottom:1em;
 
 }
 
 
-.intro-photo{
+.intro-photo {
 	width: 100%;
 
 }
@@ -36,35 +36,36 @@ img{
 h1 {
 	text-transform: uppercase;
 	display: inline-block;
+	font-weight: 700;
 
 
 }
 
-.my-header{
+.my-header {
 	color:#cdc9c9;
-	padding-right: .1em;
+	padding-right: .2em;
 	
 }
 
-.shopping-header{
+.shopping-header {
 	color:#ff7c6b;
 	
 }
 
-#add-new{
+#add-new {
 	width: 100%;
 	text-align: center;
 
 
 }
 
-input{
+input {
 	font-size: 1.2em;
 
 	
 }
 
-button{
+button {
 	color:#ff7c6b;
 }
 
@@ -92,23 +93,20 @@ button{
 }
 
 
-.checked-box {
+.checked {
 	background: url(../images/box-checked.png);
 	height: 40px;
 	width: 40px;
 	background-repeat: no-repeat;
-	display: none;
+	
 
 }
-
-
 
 
 p {
 	text-align: left;
 	color: #8f8f8f;
 	font-size: 1.1em;
-	font-weight: bold;
 	display: inline;
 	line-height: 2.6em;	
 
@@ -122,6 +120,13 @@ p {
 	
 }
 
+.strike {
+	text-decoration: line-through;
+	color: black;
+
+
+}
+
 .delete{
 	float:right;
 	width:40px;
@@ -129,7 +134,12 @@ p {
 	background: url(../images/delete-box.png);
 	background-repeat: no-repeat;
 	margin-top:.3em;
+	display: none;
 	
 	
+}
+
+.show {
+	display: inline;
 }
 
